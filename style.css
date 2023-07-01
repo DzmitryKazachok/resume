@@ -1,9 +1,8 @@
-body {
+section {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
     max-width: 960px;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 main {
