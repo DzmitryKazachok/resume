@@ -137,7 +137,7 @@ ul {
     transform: translateX(26px);
   }
 
-  @media only screen and (orientation:landscape) and (min-width:768px) {
+  @media only screen and (orientation:landscape) and (min-width:576px) {
     .bg-switch {
         left: 50px;
     }
