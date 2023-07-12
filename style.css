@@ -10,7 +10,7 @@ main {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 100;
     letter-spacing: .6em;
     padding-top: 1em;
@@ -138,6 +138,10 @@ ul {
   }
 
   @media only screen and (orientation:landscape) and (min-width:576px) {
+    h1 {
+        font-size: 3em;
+    }
+    
     .bg-switch {
         left: 50px;
     }
