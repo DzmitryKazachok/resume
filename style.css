@@ -140,6 +140,7 @@ ul {
   @media only screen and (orientation:landscape) and (min-width:576px) {
     h1 {
         font-size: 3em;
+        padding-top: 1em;
     }
     
     .bg-switch {
