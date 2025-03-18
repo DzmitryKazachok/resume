@@ -1,6 +1,6 @@
-particlesJS.load('particles-js', 'particlesOn.json', function() {
-  console.log('callback - particles.js config loaded');
-});
+// particlesJS.load('particles-js', 'particlesOn.json', function() {
+//   console.log('callback - particles.js config loaded');
+// });
 
 var bg = document.getElementById('particles-js');
 document.getElementById('toggleParticles').addEventListener('change', function() {
