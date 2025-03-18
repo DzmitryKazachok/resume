@@ -1,3 +1,7 @@
+particlesJS.load('particles-js', 'particlesOn.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+
 var bg = document.getElementById('particles-js');
 document.getElementById('toggleParticles').addEventListener('change', function() {
   if(this.checked) {
@@ -66,7 +70,3 @@ document.getElementById('toggleParticles').addEventListener('change', function()
   bg.style.display = "none";
 }
 });
-
-// particlesJS.load('particles-js', 'particlesOn.json', function() {
-//   console.log('callback - particles.js config loaded');
-// });
