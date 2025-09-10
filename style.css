@@ -166,3 +166,10 @@ ul {
         border-right: 1px solid lightgray;
     }
 }
+
+/* Hide particles when printing */
+@media print {
+    #particles-js {
+        display: none !important;
+    }
+}

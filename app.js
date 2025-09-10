@@ -70,3 +70,16 @@ document.getElementById('toggleParticles').addEventListener('change', function()
   bg.style.display = "none";
 }
 });
+
+// Initialize from URL param: ?particles=true
+(function() {
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('particles') === 'true') {
+    var toggle = document.getElementById('toggleParticles');
+    if (toggle && !toggle.checked) {
+      toggle.checked = true;
+      // trigger existing handler to initialize particles
+      toggle.dispatchEvent(new Event('change'));
+    }
+  }
+})();
