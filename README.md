@@ -13,7 +13,7 @@ One‑page resume site. Minimal, fast, print‑friendly. Includes an optional pa
 - Or run a local server (recommended):
 
 ```powershell
-cd D:\Docs\MyAI\Personal_Agent_Workspace\03_Career\GitHub\resume
+cd resume
 python -m http.server 5500
 # then open http://localhost:5500/index.html
 ```
